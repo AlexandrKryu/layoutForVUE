@@ -5,10 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout for VUE</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital@0;1&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header center">
         <div class="header__logo">
             <img src="image/Logo.svg" alt="Logo">
             <p class="header__logo_text">Interno</p>
@@ -19,17 +25,17 @@
             <a href="#" class="header__link">Blog</a>
         </div>
     </header>
-    <section class="baner">
-        <img src="image/Image-baner.jpg" alt="image-baner" class="baner__image">
+    <section class="baner center">
+
         <div class="baner__wrap">
             <div class="baner__wrap-content">
                 <h1 class="baner__title">Let Your Home Be Unique</h1>
                 <p class="baner__text">There are many variations of the passages
                     of lorem Ipsum fromavailable, majority.</p>
                 <a href="" class="baner__btn">
-                    <div class="baner_btn-text">
+                    <div class="baner__btn-text">
                         <p>Get Started</p>
-                        <!-- <img src="" alt=""> -->
+                        <!-- <img src="image/Image-baner.jpg" alt="image-baner" class="baner__image"> -->
                     </div>
                 </a>
             </div>
@@ -37,7 +43,7 @@
     </section>
 
 
-    <section class="project">
+    <section class="project center">
         <h2 class="project__title">Follow Our Projects</h2>
         <p class="project__text">It is a long established fact that a reader will be distracted by the of readable
             content
@@ -85,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section class="counter">
+    <section class="counter center">
         <div class="counter__wrap">
             <div class="counter__item">
                 <h2 class="counter__title">12</h2>
@@ -105,7 +111,7 @@
             </div>
         </div>
     </section>
-    <section class="blog">
+    <section class="blog center">
         <h2 class="blog__title">Articles & News</h2>
         <p class="blog__text">It is a long established fact that a reader will be distracted by the of readable content
             of a page when lookings at its layouts the points of using.</p>
@@ -121,21 +127,6 @@
                     <img src="image/row.svg" alt="row">
                 </div>
             </div>
-        </div>
-        <div class="blog__items">
-            <div class="blog__item">
-                <div class="blog__item-image">
-                    <img src="image/blog1.jpg" alt="blog1">
-                    <p class="blog__img-text">Kitchan Design</p>
-                </div>
-                <h2 class="blog__item-title">Let’s Get Solution For Building Construction Work</h2>
-                <div class="blog__wrap-text">
-                    <p class="blog__item-text">26 December,2022</p>
-                    <img src="image/row.svg" alt="row">
-                </div>
-            </div>
-        </div>
-        <div class="blog__items">
             <div class="blog__item">
                 <div class="blog__item-image">
                     <img src="image/blog2.jpg" alt="blog2">
@@ -147,8 +138,6 @@
                     <img src="image/row.svg" alt="row">
                 </div>
             </div>
-        </div>
-        <div class="blog__items">
             <div class="blog__item">
                 <div class="blog__item-image">
                     <img src="image/blog3.jpg" alt="blog3">
@@ -163,13 +152,13 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer center">
         <div class="footer__logo">
             <div class="header__logo">
                 <img src="image/Logo.svg" alt="logo">
                 <p class="logo__text">Interno</p>
             </div>
-            <p class="footer__logo-text"></p>
+            <p class="footer__logo-text">It is a long established fact that a reader will be distracted lookings.</p>
             <div class="footer__logo-icon">
                 <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -189,6 +178,7 @@
             <a href="#" class="footer__menu-link">Project</a>
             <a href="#" class="footer__menu-link">Blog</a>
         </div>
+        <div class="footer__services"></div>
         <div class="footer__contact">
             <p class="footer__contact-title">Contact</p>
             <p class="footer__contact-text">55 East Birchwood Ave. Brooklyn, New York 11201</p>
