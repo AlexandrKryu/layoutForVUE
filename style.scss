@@ -1,5 +1,6 @@
 @import "vars";
 @import "blog-page";
+@import "blog-details-page";
 
 * {
     margin: 0;
@@ -98,7 +99,7 @@ a {
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-        & p {
+        & a {
             color: #fff;
             font-family: $familyText;
             font-size: 18px;
